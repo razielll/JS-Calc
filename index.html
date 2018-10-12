@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calc</title>
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+<body onload="init()" oncontextmenu="return false" onkeydown="getKey(event.key)">
+    <h1>JS calculator</h1>
+
+    <table>
+        <tbody>
+            <tr><th colspan="5" class="result"> &#128425; Calc</th></tr>
+            <tr>
+                <td>MC</td>
+                <td>MR</td>
+                <td>MS</td>
+                <td>M+</td>
+                <td>M-</td>
+            </tr>
+            <tr>
+                <td>&larr;</td>
+                <td>CE</td>
+                <td>C</td>
+                <td>&plusmn;</td>
+                <td>&radic;</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>/</td>
+                <td>%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>*</td>
+                <td>1/X</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>-</td>
+                <td rowspan="2">=</td>
+            </tr>
+            <tr>
+                <td colspan="2">0</td>
+                <td>.</td>
+                <td>+</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="js/calc.js"></script>
+</body>
+</html>
